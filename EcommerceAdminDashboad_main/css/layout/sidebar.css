@@ -1,0 +1,57 @@
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+#sidebar {
+    position: fixed;
+    color: #fff;
+    background: #232323;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 10px;
+    width: 80px;
+    margin: 5px;
+    margin-left: 10px;
+    height: 680px;
+    z-index: 999;
+    transition: all 0.3s;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+}
+
+#sidebar-icon {
+    height: 30px;
+    width: 30px;
+}
+
+#sidebar .sidebar-header {
+    padding: 9px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-top: 2px solid #fff;
+}
+
+#sidebar a {
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+#sidebar ul li a {
+    display: flex;
+    padding: 10px;
+}
+
+#sidebar ul li a:hover {
+    background: #000000;
+}

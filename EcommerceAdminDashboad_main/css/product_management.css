@@ -1,0 +1,75 @@
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+.entry-box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    margin: -18px 0 18px;
+    padding: 20px;
+}
+
+.buttons-box {
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.buttons-box button {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.display-image {
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+}
+
+.display-image img {
+    height: 200px;
+    width: 200px;
+    padding: 2px 0 2px;
+    border-radius: 10px;
+}
+
+.upload-icon i img {
+    height: 50px;
+    width: 50px;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+.form-title label {
+    display: flex;
+    justify-content: center;
+    background-color: #232323;
+    color: white;
+    height: 50px;
+    width: 400px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.delete-box label h5 {
+    background-color: #232323;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-title label img {
+    height: 40px;
+    width: 40px;
+    margin-top: -3px;
+    margin-right: 15px;
+}
+
+.delete-box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}

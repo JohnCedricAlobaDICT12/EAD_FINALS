@@ -1,0 +1,27 @@
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#cards1, #cards2, #cards3, #cards4 {
+    background-color: #232323;
+    border-radius: 10px;
+    height: 110px;
+    font-size: larger;
+}
+
+#cards1 {
+    /* box-shadow: 0px 0px 33px 4px rgba(220,53,69,1); */
+    /* box-shadow: 0px 0px 33px 0px rgba(220,53,69,1); */
+    box-shadow: 0px 0px 33px -6px rgba(220,53,69,1);
+}
+
+#cards2 {
+    box-shadow: 0px 0px 33px -6px rgba(40,167,69,1);
+}
+
+#cards3 {
+    box-shadow: 0px 0px 33px -6px rgba(255,156,59,1);
+}
+
+#cards4 {
+    box-shadow: 0px 0px 33px -6px rgba(0,118,239,1);
+}

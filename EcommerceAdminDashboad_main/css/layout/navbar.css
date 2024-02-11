@@ -1,0 +1,86 @@
+/* ---------------------------------------------------
+    TOPBAR STYLE
+----------------------------------------------------- */
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    height: 60px;
+}
+
+.navbar-wrapper {
+    margin-top: -15px;
+}
+
+.navbar-content-left {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-content-left h2 {
+    margin: 0;
+}
+
+.navbar-content-right {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+/* Hamburger Menu */
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+    background: none;
+}
+
+.btn.navbar-btn {
+    margin-right: 10px;
+}
+
+/* Breadcrumbs */
+.navbar-list {
+    display: inline-flex;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.navbar-content-right ul li a {
+    margin: 5px;
+    font-size: medium;
+}
+
+.navbar-content-right ul li a:hover {
+    margin: 5px;
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.divider {
+    height: 22px;
+    width: 2px;
+    background-color: #232323;
+}
+
+/* Account Avatar */
+.account-image img {
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+}
+
+#topbar-icon {
+    height: 30px;
+    width: 30px;
+}
