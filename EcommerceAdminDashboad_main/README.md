@@ -1,21 +1,16 @@
 # EcommerceAdminDashboad_SoftwareEngineering
 New ecommerce dashboard for software engineering
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TAKE NOTE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TAKE NOTE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
----------------------------------------------------------------------------------------------------
---------------------------ISSUES: NAWAWALA ANG CSS FILES AT IMAGES FOLDER--------------------------
----------------------------------------------------------------------------------------------------
 Solution No 1: Sa Nawawalang CSS
   Just remove the extra slash(/) on each link & script.
 
   Not remove:
     <link rel="stylesheet" href="/css/layout/style.css">
-    <script src="/javascripts/sript.js"></script>
+    <script src="/js/sript.js"></script>
   
   Removed:
     <link rel="stylesheet" href="css/layout/style.css">
-    <script src="javascripts/sript.js"></script>
+    <script src="js/sript.js"></script>
   
   Just do this in every link and script on the html files.
 
